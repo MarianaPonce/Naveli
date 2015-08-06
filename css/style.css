@@ -1,0 +1,47 @@
+
+.encabezado{
+	margin: 0 auto;
+	font-size:100px;
+}
+.icon-tam{
+
+	font-size: 200px;
+	color:#106B60;
+  transform: rotate(-10deg);
+  
+ animation-duration: 6s;
+  animation-name: deslizaicon;
+}
+
+@keyframes deslizaicon {
+  0% {
+    margin-left: -1000%;
+    width: -300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%
+  }
+
+ transform: rotate(-5 deg);
+	
+}
+h5 {
+  animation-duration: 6s;
+  animation-name: slidein;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 450%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
